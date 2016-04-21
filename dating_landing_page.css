@@ -1,0 +1,220 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, sans-serif;
+	background: #f0f0f2;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+#am-header {
+	float: left;
+	background-color: #fff;
+    border-bottom: 1px solid #e9e9e9;
+    height: 45px;
+    text-align: center;
+    width: 100%;
+}
+
+.am-logo {
+    background: url(http://images.askmen.com/responsive/sprite.svg) no-repeat;
+    height: 38px;
+    display: inline-block;
+    margin-top: 4px;
+    vertical-align: middle;
+    text-align: center;
+    width: 145px;
+}
+
+/* Main container */
+
+#container {
+	max-width: 1040px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0px 20px;
+}
+
+	header {
+		width: 100%;
+		float: left;
+	}
+
+	h1 {
+		color : #701245;
+		text-align: center;
+		line-height: 100px;
+		font: normal 60px BebasNeue, Arial, sans-serif;
+	}
+
+	h2 {
+		color : #701245;
+		font: normal 30px/20px Roboto, Arial, sans-serif;
+		padding: 0px 10px;
+		line-height: 33px;
+	}
+
+	p {
+		font-family: Roboto, Arial, sans-serif;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.intro {
+		line-height: 24px;
+	}
+
+	article {
+		width: 100%;
+		background: #fff;
+		overflow: hidden;
+	}
+
+		section {
+			width: 100%;
+			float: left;
+			border-top: 1px solid #000;
+			overflow: hidden;
+		}
+
+		section:last-child {
+			border-bottom: 1px solid #000;
+		}
+
+			/* section items */
+			.number, .brand, .about, .score, .visit-site {
+				float: left;
+				margin: 20px 0px;
+				width: 100%;
+				height: auto;
+			}
+
+			.score, .visit-site {
+				width: 50%;
+			}
+
+			.number {
+				font-size: 12px;
+			}
+
+				.number .value {
+					background: #BABABA;
+					width: 35px;
+					height: 35px;
+					border-radius: 17px;
+					color: #fff;
+					font-size: 26px;
+					line-height: 35px;
+					margin: 0 auto;
+					text-align: center;
+				}
+
+			.brand {
+				font-size: 12px;
+				text-align: center;
+			}
+
+				.ribbon { 
+					width: 142px; 
+					height: 49px; 
+					background: url('Online_Dating_Desktop_Design.png'); 
+				    color: #fff;
+				    font-size: 16px;
+				    font-family: RobotoRegular;
+				    line-height: 30px;
+				    margin: 0 auto;
+				}
+
+			.about {
+				font-size: 14px;
+			}
+
+				.about .brand-name {
+					color: #404040;
+					font-size: 20px;
+					line-height: 20px;
+					margin-bottom: 10px;
+				}
+
+			.score {
+				color: #F82E1F;
+				font-size: 26px;
+				font-weight: bold;
+				text-align: left;
+				font-family: BebasNeue, Arial, sans-serif;
+				font-weight: 100;
+				text-align: center;
+			}
+
+				.score span {
+					font-size: 20px;
+				}
+
+			.visit-site {
+				font-size: 12px;
+			}
+
+				.visit-site a.read-review {
+					color: #404040;
+					text-decoration: none;
+					background: none;
+					display: block;
+					text-align: center;
+					font-family: RobotoRegular;
+				}
+
+				.visit-site a.button {
+					padding: 14px;
+					margin: 0 auto;
+					font-size: 28px;
+					background: #F82E1F;
+					width: 80%;
+					color: #fff;
+					border-radius: 4px;
+					text-decoration: none;
+					display: block;
+					text-align: center;
+				}
+
+.footer {
+	padding: 0px 10px;
+	font-family: Roboto, Arial, sans-serif;
+	line-height: 24px;
+}
+
+.disclaimer {
+	font-size: 10px;
+	padding: 0px 10px 20px;
+}
+
+.matchcom { background: url('http://images.askmen.com/180x180/2015/08/24-030347-match_com_review.jpg'); }
+.eharmony { background: url('http://images.askmen.com/180x180/2015/08/24-044423-eharmony_review.jpg'); }
+.xmatch { background: url('http://images.askmen.com/180x180/2015/08/25-042237-xmatch_com_review.jpg'); }
+.friend-finder-x { background: url('http://images.askmen.com/180x180/2015/08/26-125443-friendfinder_x_review.jpg'); }
+.passioncom { background: url('http://images.askmen.com/180x180/2015/08/26-022350-passion_com_review.jpg'); }
+.adult-friend-finder { background: url('http://images.askmen.com/180x180/2015/08/25-032916-adultfriendfinder_review.jpg'); }
+.ihookup { background: url('http://images.askmen.com/180x180/2015/08/27-031409-ihookup_review.jpg'); }
+
+.dating-logo { width: 156px; height: 60px; background-position: -12px; background-size: 160px; margin: 0 auto; }
+
+
+/* media queries */
+/* > 840px */
+@media only screen and (min-width:52em) { 
+	.number { width: 10%; margin-top: 58px; }
+	.brand { width: 16%; }
+	.about { width: 49%; }
+	.score { width: 10%; margin-top: 58px; }
+	.visit-site { width: 15%; margin-top: 46px; }
+
+	.visit-site a.button {
+		padding: 10px;
+		font-size: 16px;
+	}
+
+	.ribbon {
+		margin: 0px; 
+	}
+}
