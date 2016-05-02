@@ -253,5 +253,10 @@ body {
 
     .ribbon {
         margin: 0px; 
+        margin-top: 20px;
+    }
+
+    .logo-center {
+        margin-top: 28px;
     }
 }
