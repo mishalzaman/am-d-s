@@ -194,8 +194,12 @@ body {
     line-height: 28px;
 }
 
+.footer a {
+    color: blue;
+}
+
 .disclaimer {
-    font-size: 10px;
+    font-size: 14px;
     padding: 0px 10px 20px;
 }
 
