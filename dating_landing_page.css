@@ -194,8 +194,12 @@ body {
     line-height: 28px;
 }
 
+.footer a {
+    color: blue;
+}
+
 .disclaimer {
-    font-size: 10px;
+    font-size: 14px;
     padding: 0px 10px 20px;
 }
 
@@ -207,7 +211,7 @@ body {
 .adult-friend-finder { background: url('http://images.askmen.com/180x180/2015/08/25-032916-adultfriendfinder_review.jpg'); }
 .ihookup { background: url('http://images.askmen.com/180x180/2015/08/27-031409-ihookup_review.jpg'); }
 
-.dating-logo { width: 156px; height: 60px; background-position: -12px; background-size: 160px; margin: 0 auto; }
+.dating-logo { width: 156px; height: 60px; background-position: 0px; background-size: 160px; margin: 0 auto; }
 
 
 /* media queries */
@@ -227,7 +231,8 @@ body {
     }
     
     .about { 
-        width: 49%;
+        width: 47%;
+        margin-left: 2%;
     }
 
     .score { 
